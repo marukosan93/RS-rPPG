@@ -14,14 +14,14 @@ averaging the pixels from each frame to extract a temporal signal
 
 
 ![DEID](rsrppg_mainfig.png)
-Our method relies on the following priors motivated by observations about rPPG:
-P1) Spatial-temporal maps are less subject to noise.​ -> STmap input
-P2) Self-attention based transformers can lead to better temporal modelling​ -> SwinU-Net model
-P3) Signals extracted using traditional methods contain more physiological information than raw averaged signals.​ -> Tmap positive sampling
-P4) Different facial videos most likely contain different rPPG signals​ -> Instance wise sampling for negative sampling
-P5) STmap signals are spatially and channel redundant​ -> Spatial and channel consistency in positive sampling
-P6) The rPPG signal is band limited [0.5, 3]Hz​ -> Regbw
-P7) The spectrum of rPPG signals is sparse -> Regsp
+Our method relies on the following priors motivated by observations about rPPG:<br>
+P1) Spatial-temporal maps are less subject to noise.​ -> STmap input<br>
+P2) Self-attention based transformers can lead to better temporal modelling​ -> SwinU-Net model<br>
+P3) Signals extracted using traditional methods contain more physiological information than raw averaged signals.​ -> Tmap positive sampling<br>
+P4) Different facial videos most likely contain different rPPG signals​ -> Instance wise sampling for negative sampling<br>
+P5) STmap signals are spatially and channel redundant​ -> Spatial and channel consistency in positive sampling<br>
+P6) The rPPG signal is band limited [0.5, 3]Hz​ -> Regbw<br>
+P7) The spectrum of rPPG signals is sparse -> Regsp<br>
 
 ## Dataset Preprocessing
 
