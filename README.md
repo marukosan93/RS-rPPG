@@ -13,7 +13,7 @@ traction: a coarse rPPG signal is obtained by selecting an ROI (e.g., cheeks or 
 averaging the pixels from each frame to extract a temporal signal
 
 
-![DEID](rsrppg_mainfig)
+![DEID](rsrppg_mainfig.png)
 Our method relies on the following priors motivated by observations about rPPG:
 P1) Spatial-temporal maps are less subject to noise.​ -> STmap input
 P2) Self-attention based transformers can lead to better temporal modelling​ -> SwinU-Net model
