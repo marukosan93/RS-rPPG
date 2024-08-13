@@ -6,11 +6,7 @@ You can find the paper at [Here](https://brosdocs.net/fg2024/013.pdf)
 
 
 ![RPPGVIS](rppgvis.png)
-A) rPPG: Cardiac activity causes periodical variations in the reflected light inten-
-sity, noise is also captured (from e.g., lighting, motion and sensor). B) PPG: Uses simple
-optical sensor to capture strong signal, due to short distance and lesser noise. C) rPPG ex-
-traction: a coarse rPPG signal is obtained by selecting an ROI (e.g., cheeks or forehead) and
-averaging the pixels from each frame to extract a temporal signal
+A) rPPG: Cardiac activity causes periodical variations in the reflected light intensity, noise is also captured (from e.g., lighting, motion and sensor). B) PPG: Uses simple optical sensor to capture strong signal, due to short distance and lesser noise. C) rPPG ex- traction: a coarse rPPG signal is obtained by selecting an ROI (e.g., cheeks or forehead) and averaging the pixels from each frame to extract a temporal signal
 
 
 ![DEID](rsrppg_mainfig.png)
