@@ -23,10 +23,10 @@ P7) The spectrum of rPPG signals is sparse -> Regsp<br>
 
 The original videos are firstly preprocessed by extracting the MSTmaps following https://github.com/nxsEdson/CVD-Physiological-Measurement. Both the MSTmaps and groundtruth bvp are resampled to 30 fps. To get the TMap positive augmentation maps use create_tmaps_VIPL.sh on your dataset. In the example code we assume the data used in pre-processed from PURE, OBF, MMSE or VIPL-HR datasets, but can't provide the actual data or preprocessed files. The structure of the data that can be used with our dataloader is: <br>
 Dataset1: <br>
-├── Sample1  <br>
-├──├── mstmap.npy (containts [63,T,3] multi-scale spatial-temporal maps calculated from videos) <br>
-├──├── tmap.npy (containts [63,T,3] traditional augmenation calculated from the mstmaps by using create_tmaps_VIPL.sh) <br>
-├──├── bvp.npy ( array with grountruth bvp signal [T]) <br>
+├── Sample1 (signal maps and ground truth are long N frames which is the total length of each video)  <br>
+├──├── mstmap.npy (containts [63,N,3] multi-scale spatial-temporal maps calculated from videos) <br>
+├──├── tmap.npy (containts [63,N,3] traditional augmenation calculated from the mstmaps by using create_tmaps_VIPL.sh) <br>
+├──├── bvp.npy ( array with grountruth bvp signal [N]) <br>
 <br>
 If your dataset is processed in this way, with some minimal code changes you can use our dataloader as described by the following steps.
 
