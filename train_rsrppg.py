@@ -192,11 +192,11 @@ def train(train_loader, model,crit_tpl,criterion_freqreg, optimizer, epoch,name_
 
         ### Generate random permutation for batch that has less repetitions
         if patched_map.size(0) <= 2:
-            neg = output[random_ind_diff_pos(patched_map.size(0)),:,:,:]
+            neg = output2[random_ind_diff_pos(patched_map.size(0)),:,:,:]
         else:
             list_n = get_perms(patched_map.size(0),True)
             random.shuffle(list_n)
-            neg = output[list_n[0],:,:,:]
+            neg = output2[list_n[0],:,:,:]
 
         loss_sp,loss_bw = criterion_freqreg(anchor,fps,f_min,f_max)
         loss_sp2,loss_bw2 = criterion_freqreg(pos,fps,f_min,f_max)
