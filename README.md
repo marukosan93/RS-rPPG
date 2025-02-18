@@ -1,4 +1,7 @@
 # RS-rPPG
+
+**Update: The paper for RS+rPPG has been accepted by IEEE TCSVT. We will soon update the code to include our method's extension**
+
 This is the official code repository of our IEEE FG 2024 paper "RS-rPPG: Robust Self-Supervised Learning for rPPG". RS-rPPG is  a novel contrastive framework that leverages a large set of priors, that enable learning robust and transferable features even from challenging datasets. Ours is the first method to focus on self-supervised learning on challenging data and the first method to use such a large set of priors. The priors include a novel traditional augmentation method, leveraging spatial-temporal maps and self-attention based transformer for SSL.
 
 
