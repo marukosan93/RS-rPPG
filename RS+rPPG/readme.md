@@ -33,13 +33,14 @@ If your dataset is processed in this way, with some minimal code changes you can
 Please make sure your dataset is processed as described above. Firstly you need to pre-train the SwinU-Net network to predict tmaps from mstmaps, this can be done with the pretrain_mstmap2tmap.py script. Put the pretrained models into a folder named "./Trained/" and then you can finally train using the rsrppg method by using train_rsrppg.py.
 
 ## Citation
-@inproceedings{savic2024rs,
-  title={RS-rPPG: Robust Self-Supervised Learning for rPPG},
+@ARTICLE{savic2025rsrppg,
   author={Savic, Marko and Zhao, Guoying},
-  booktitle={2024 IEEE 18th International Conference on Automatic Face and Gesture Recognition (FG)},
-  pages={1--10},
-  year={2024},
-  organization={IEEE}
-}
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={RS+rPPG: Robust Strongly Self-Supervised Learning for rPPG}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TCSVT.2025.3544676}}
 
 
