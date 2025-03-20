@@ -4,7 +4,7 @@ This is the official code repository of our IEEE TCSVT paper "RS+rPPG: Robust St
 
 You can find the paper at [Here](https://brosdocs.net/fg2024/013.pdf](https://oulurepo.oulu.fi/handle/10024/54352))
 
-![mainfig](rsrppg_mainfig.png)
+![mainfig](rs+rPPG_mainfig.png)
 Our method relies on the following priors motivated by observations about rPPG:<br>
 P1) Spatial-temporal maps are less subject to noise.​ -> STmap input<br>
 P2) Self-attention based transformers can lead to better temporal modelling​ -> SwinU-Net model<br>
