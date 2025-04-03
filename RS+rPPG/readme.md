@@ -30,7 +30,7 @@ Dataset1: <br>
 ├──├── bgmap.npy (containts [63,N,6] background maps, calculated from 6 background regions in an analogous way as MSTmaps, obtained using create_bgmaps_VIPL.sh) <br>
 
 <br>
-If your dataset is processed in this way, with some minimal code changes you can use our dataloader as described by the following steps.
+If your dataset is processed in this way, with some minimal code changes you can use our dataloader as described by the following steps. The preprocessing has a couple of extra steps compared to RS-rPPG, tmaps are now with 6 traditional methods, mstmaps also have 6 channels (RGB+YUW), BGmaps and MVmaps are calculated during preprocessing. For FRmaps the augmentations are created by the dataloader, as they frequencies are randomly sampled. 
 
 
 ## Training
