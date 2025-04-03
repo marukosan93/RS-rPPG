@@ -34,7 +34,7 @@ If your dataset is processed in this way, with some minimal code changes you can
 
 
 ## Training
-COMING SOON
+Please make sure your dataset is processed as described above. Firstly you need to pre-train the SwinU-Net network to predict tmaps2 from mstmaps, this can be done with the pre-train_mstmap2tmap2 script. Put the pretrained models into a folder named "./Trained/" and then you can finally train using the rsrppg method by using train_rs+rppg.py.
 
 ## Citation
 @ARTICLE{savic2025rsrppg,
