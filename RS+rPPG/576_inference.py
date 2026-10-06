@@ -6,7 +6,7 @@ import torch
 #from torchsummary import summary
 from models.swin_transformer_unet_skip_expand_decoder_sys_nosq import SwinTransformerSys
 from torchsummary import summary
-from MST_tmap2_mv_bg_sunet_nosq import mst
+from MST_tmap2_mv_bg_aug2_sunet_snr_nosq import mst
 import more_itertools as mit
 import torchvision.transforms as T
 from torch.utils.data import DataLoader
